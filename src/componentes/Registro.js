@@ -136,7 +136,7 @@ export default function Registro() {
                 if (response.status === 400) {
                     //alert(" + response.status)
                     Swal.fire({
-                        title: "No fue posible crear el usuario porque ya existe el correo ingresado " + values.email,
+                        title: "No fue posible creer el usuario porque ya existe el correo ingresado " + values.email,
                         icon: "warning"
                     })
 
