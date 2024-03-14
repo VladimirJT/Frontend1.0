@@ -1,36 +1,35 @@
-import cienAños from './cienAños.jpg'
-import cosmos from './cosmos.jpg'
-import colera from './colera.jpg'
-import cuentos from './todosCuentos.jpg'
-import contacto from './contacto.jpg'
-import coronel from './coronel.jpg'
-import cerebroBroca from './cerebroBroca.jpg'
-import miserables from './miserables.jpg'
-import cuatroAcuerdos from './cuatroAcuerdos.jpg'
-import logicaMentira from './logicaMentira.jpg'
-import diccionarioAjedrez from './diccionarioAjedrez.jpg'
-import poderPalabras from './poderPalabras.jpg'
-import nietos from './nietos.jpg'
-import almendra from './almendra.jpg'
-import miPortada from './miPortada.jpg'
+import SueterM from './SueterM.jpeg'
+import SueterN from './SueterN.jpeg'
+import SudaderaMN from './SudaderaMN.jpeg'
+import SudaderaC from './SudaderaC.jpeg'
+import SudaderaCardigan from './SudaderaCardigan.jpeg'
+import SudaderaBW from './SudaderaBW.jpeg'
+import SudaderaClean from './SudaderaClean.jpeg'
+import SueterAngel from './SueterAngel.jpeg'
+import SueterRoseW from './SueterRoseW.jpeg'
+import SueterBoston from './SueterBoston.jpeg'//
+import SudaderaBrown from './SudaderaBrown.jpeg'
+import SudaderaDragon from './SudaderaDragon.jpeg'
+import SudaderaTokyo from './SudaderaTokyo.jpeg'
+import SudaderaWhite from './SudaderaWhite.jpeg'
+import SudaderaLoto from './SudaderaLoto.jpeg'
+
+
+
 
 export default [
     {   id:1,
-        title: "Cien años de soledad",
-        autor: "Gabriel García Márquez",
-        fechaLanzamiento:"20-12-1980",
-        description: "Cien años de soledad se ha convertido en la novela más emblemática de la literatura latinoamericana.",        
-        image: cienAños,
+        title: "Sueter Oscuro oversize",
+        Marca: "Zara", 
+        image: SueterM,
         precio:"$1000"
     },
 
     {
         id:2,
-        title: "COSMOS",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: cosmos,
+        title: "Sueter Degradado oversize",
+        Marca: "Carl Sagan",
+        image: SueterN,
         precio:"$25000"
     }
     ,
@@ -38,10 +37,8 @@ export default [
     {
         id:3,
         title: "El coronel no tiene quien le escriba",
-        autor: "Gabriel García Márquez",
-        fechaLanzamiento:"20-12-1979",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: coronel,
+        Marca: "",
+        image: SudaderaMN,
         precio:"$25000"
     }
     ,
@@ -49,120 +46,96 @@ export default [
     {
         id:4,
         title: "El amor en los tiempos del cólera",
-        autor: "Gabriel García Márquez",
-        fechaLanzamiento:"20-12-1995",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: colera,
+        Marca: "",
+        image: SudaderaC,
         precio:"$25000"
     },
 
     {
         id:5,
         title: "Todos los cuentos",
-        autor: "Gabriel García Márquez",
-        fechaLanzamiento:"20-12-1989",
-        description: "En este volumen, los oyentes encontrarán los primeros relatos que García Márquez publicó en Ojos de perro azul, entre ellos, Monólogo de Isabel viendo llover en Macondo.",        
-        image: cuentos,
+        Marca: "Gabriel García Márquez",
+        image: SudaderaCardigan,
         precio:"$25000"
     },
 
     {
         id:6,
         title: "Contacto",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: contacto,
+        Marca: "Carl Sagan",
+        image: SudaderaBW,
         precio:"$25000"
     },
 
     {
         id:7,
         title: "Cerebro de Broca",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: cerebroBroca,
+        Marca: "Carl Sagan",
+        image: SudaderaClean,
         precio:"$25000"
     },
 
     {
         id:8,
         title: "Los miserables",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: miserables,
+        Marca: "Carl Sagan",
+        image: SueterAngel,
         precio:"$25000"
     },
 
     {
         id:9,
         title: "Los cuatro acuerdos",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: cuatroAcuerdos,
+        Marca: "Carl Sagan",
+        image: SueterRoseW,
         precio:"$25000"
     },
 
     {
         id:10,
         title: "La lógica de la mentira",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: logicaMentira,
+        Marca: "Carl Sagan",
+        image: SueterBoston,
         precio:"$25000"
     },
 
     {
         id:11,
         title: "Diccionario de ajedrez",
-        autor: "Carl Sagan",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: diccionarioAjedrez,
+        Marca: "Carl Sagan",
+        image: SudaderaBrown,
         precio:"$25000"
     },
 
     {
         id:12,
         title: "El poder de las palabras",
-        autor: "Sigman Mariano",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: poderPalabras,
+        Marca: "Sigman Mariano",
+        image: SudaderaDragon,
         precio:"$25000"
     },
 
     {
         id:13,
         title: "El poder de las palabras",
-        autor: "Sigman Mariano",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: nietos,
+        Marca: "Sigman Mariano",
+        image: SudaderaTokyo,
         precio:"$25000"
     },
 
     {
         id:14,
         title: "El poder de las palabras",
-        autor: "Sigman Mariano",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: almendra,
+        Marca: "Sigman Mariano",
+        image: SudaderaWhite,
         precio:"$25000"
     },
 
     {
         id:15,
         title: "El poder de las palabras",
-        autor: "Sigman Mariano",
-        fechaLanzamiento:"20-12-1989",
-        description: "Cosmos trata de la ciencia en su contexto humano más amplio y explica cómo la ciencia y la civilización se desarrollan conjuntamente.",        
-        image: miPortada,
+        Marca: "Sigman Mariano",
+        image: SudaderaLoto,
         precio:"$25000"
     }
 ]
