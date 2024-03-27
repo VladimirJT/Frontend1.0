@@ -71,3 +71,4 @@ function UsuariosRegistrados() {
 }
 
 export default UsuariosRegistrados
+{}

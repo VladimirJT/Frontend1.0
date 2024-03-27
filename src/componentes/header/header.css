@@ -1,19 +1,33 @@
 .logo{
-    /* border: solid 2px blue; */
-    width: 10%;
+    position: relative; /* Añadido para posicionar el logo */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    max-width: 300px; /* ajusta según tu preferencia */
+    margin: 10px;
+    width: 15%;
 }
 
 ul{
-    /* border: solid 2px blue; */
     margin-left: 40px;
+    font-family: Arial, sans-serif;
+    color: black;
+    border: solid 2px blue;
 }
 .contenedor{
-    /* border: solid 2px blue; */
+    position: relative;
+    padding: 20px 100px;
     margin: 2%;
+    background: black;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 form{
     height: 18%;
     margin: 3%;
 }
+

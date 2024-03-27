@@ -1,5 +1,5 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import './header.css';
 import HomeIcon from '@mui/icons-material/Home';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import NotesIcon from '@mui/icons-material/Notes';
@@ -11,16 +11,17 @@ import LoginIcon from '@mui/icons-material/Login';
 import GroupsIcon from '@mui/icons-material/Groups';
 import { Link } from 'react-router-dom';
 
-
 function Header() {
     return (
-
         <div className='contenedor'>
             <img src="logo.jpg" className="logo" alt="logo" />
+            
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <HomeIcon />
                             <a className="nav-link" href="#">Inicio<span className="sr-only"></span></a>
@@ -31,56 +32,44 @@ function Header() {
                         </li>
                         <li className="nav-item">
                             <NotesIcon />
-                            <a className="nav-link" href="#">
-                                Referencia
-                            </a>
+                            <a className="nav-link" href="#">Referencia</a>
                         </li>
                         <li className="nav-item">
                             <CleanHandsOutlinedIcon />
-                            <a className="nav-link" href="#">
-                                Recursos
-                            </a>
+                            <a className="nav-link" href="#">Recursos</a>
                         </li>
                         <li className="nav-item">
                             <ConnectWithoutContactOutlinedIcon />
-                            <a className="nav-link" href="#">
-                                Contacto
-                            </a>
+                            <a className="nav-link" href="#">Contacto</a>
                         </li>
-                        <Link to='/registro'>
-                            <li className="nav-item">
+                        <li className="nav-item">
+                            <Link to='/registro' className="nav-link">
                                 <HowToRegOutlinedIcon />
-                                <a className="nav-link" href="#">
-                                    Registrase
-                                </a>
-                            </li>
-                        </Link>
-                        <Link to='/login'>
-                            <li className="nav-item">
+                                Registrarse
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/login' className="nav-link">
                                 <LoginIcon />
-                                <a className="nav-link" href="#">
-                                    Iniciar sesión
-                                </a>
-                            </li>
-                        </Link>
-                        <Link to='/usuarios-registrados'>
-                            <li className="nav-item">
+                                Iniciar sesión
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/usuarios-registrados' className="nav-link">
                                 <GroupsIcon />
-                                <a className="nav-link" href="#">
-                                    Ver usuarios
-                                </a>
-                            </li>
-                        </Link>
+                                Ver usuarios
+                            </Link>
+                        </li>
                     </ul>
+                    <form className="d-flex">
+                        <SearchTwoToneIcon fontSize='large' />
+                        <input className='form-control me-2' type="search" placeholder="Search" />
+                        <button className="btn btn-primary" type="submit">Search</button>
+                    </form>
                 </div>
             </nav>
-            <form className="d-flex" role="search">
-                <SearchTwoToneIcon fontSize='large' />
-                <input className='form-control' type="search" placeholder="Search" />
-                <button className="btn btn-primary" type="submit">Search</button>
-            </form>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;

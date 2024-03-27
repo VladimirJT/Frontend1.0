@@ -3,11 +3,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import imagenesCarrusel from './imagenesCarrusel';
-//import './carrusel.css'
+import styled from '@emotion/styled';
+import './carrusel.css'
 
 //import { Carousel } from 'react-bootstrap';
 //import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function Carrusel() {
     let settings = {
@@ -25,7 +25,7 @@ function Carrusel() {
                 {imagenesCarrusel.map(items => {
                     return (
                         <div key={items.id}  >
-                            <img src={items.image} alt='Imagen' />
+                            <img className='imagen'src={items.image} alt='Imagen' />
                         </div>
                     )
                 })}

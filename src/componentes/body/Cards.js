@@ -12,7 +12,7 @@ export default function Cards(props) {
                 
                 <center><h5>{props.items.title}</h5></center>
                 <center><h6>{props.items.precio}</h6></center> 
-                <button type="button" class="btn btn-outline-primary">Comprar</button>
+                <button type="button" class="button">Comprar</button>
             </div>
 
         </div>
