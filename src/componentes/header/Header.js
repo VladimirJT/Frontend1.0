@@ -24,7 +24,7 @@ function Header() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <HomeIcon />
-                            <a className="nav-link" href="#">Inicio<span className="sr-only"></span></a>
+                            <a className="nav-link" href="#">Inico<span className="sr-only"></span></a>
                         </li>
                         <li className="nav-item">
                             <LibraryBooksIcon />
